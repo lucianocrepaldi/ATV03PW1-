@@ -1,0 +1,59 @@
+div [class="header"] { 
+    color: black; 
+    font-size: 30pt;
+    font-family: Helvetica
+    
+
+}
+
+div [class="sidebar"] { 
+    color: black; 
+    font-size: 15pt;
+    font-family: Helvetica
+    
+
+}
+
+div [class="main"] { 
+    
+    color: rgb(177, 10, 10);
+    font-size: 15pt;
+    font-family: Helvetica;
+
+}
+
+div [class="footer"] { 
+    
+    color: black;
+    font-size: 15pt;
+    font-family: Helvetica;
+
+}
+
+
+
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.main {
+    grid-area: main;
+    background-color: rgb(243, 239, 239);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: pulsar 2s infinite; /* Adiciona a animação */
+}
+
