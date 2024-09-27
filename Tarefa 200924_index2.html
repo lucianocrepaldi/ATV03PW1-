@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Completo de Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "header header header"
+                "sidebar main main"
+                "footer footer footer";
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px auto 50px;
+            gap: 10px;
+            height: 200px;
+            
+        }
+        .header {
+            grid-area: header;
+            background-color: rgb(243, 239, 239);
+            display: flex;
+            justify-content: center; /* Alinha horizontalmente */
+            align-items: center; /* Alinha verticalmente */
+        }
+        .sidebar {
+            grid-area: sidebar;
+            background-color: rgb(243, 239, 239);
+            display: flex;
+            justify-content: center; /* Alinha horizontalmente */
+            align-items: center; /* Alinha verticalmente */
+        }
+        .main {
+            grid-area: main;
+            background-color: rgb(243, 239, 239);
+            justify-content: center; /* Alinha horizontalmente */
+            align-items: center; /* Alinha verticalmente */
+            text-align: center;
+        }
+        .footer {
+            grid-area: footer;
+            background-color: rgb(243, 239, 239);
+        }
+    </style>
+</head>
+<body><link rel="stylesheet" href="Tarefa 200924.css">
+    <div class="container">
+        <div class="header">
+            <strong>Novo Iphone 16.75</strong>
+        </div>
+        <div class="sidebar">
+        <ul>
+            <li>Câmera de 48 MP: Fotos de alta resolução com zoom óptico.</li>
+            <li>Botão Touch da Câmera: Acesso rápido às configurações.</li>
+            <li>Chip A18: Desempenho até 30% mais rápido.</li>
+            <li>Captura Espacial: Fotos e vídeos em 3D.</li>
+        </ul>
+        </div>
+            
+        <div class="main">
+            <pre><strong>Modelos Iphone 16.75 </strong></pre>
+            <pre><strong>Preço R$ 16,75 </strong></pre>
+            <pre> <strong>Azul</strong>                   <strong>Rosa</strong>              <strong>Verde Bolsonaro</strong></pre>
+            <img src="../Iphone/midea/Azul.png" alt="Iphone Azul">
+            <img src="..//Iphone/midea/Rosa.png" alt="Iphone Rosa">
+            <img src="../Iphone/midea/Verde.png" alt="Iphone Verde Bolsonaro">
+        </div>
+        <div class="footer">
+            <pre><strong>Modelos Iphone 16.75 contato: Luciano Mendes Crepaldi - luciano.crepaldi@etec.gov.br</strong></pre>
+            </div>
+    </div>
+</body>
+</html>
