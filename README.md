@@ -1,3 +1,11 @@
-# ATV03PW1-
-Atividade: Criando um Website para Apresentar o Novo iPhone 16
-Preparado por Luciano Mendes Crepaldi
+# Projeto: Site do iPhone 16
+
+## Descrição
+Este projeto consiste na construção de um site informativo sobre o iPhone 16, destacando suas principais características, funcionalidades e preços. O objetivo é criar uma interface atraente e responsiva que forneça informações claras aos usuários.
+
+## Funcionalidades
+- Apresentação das especificações técnicas do iPhone 16.
+- Galeria de imagens dos modelos disponíveis.
+- Informações sobre preços e disponibilidade.
+- Dados para compra e contato.
+
